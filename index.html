@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Blog Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>BLOG</h1>
+        <button id="dark-mode-toggle">Dark Mode</button>
+    </header>
+
+    <main>
+        <article>
+            <img src="https://www.iitk.ac.in/che/chemineers/assets/blogs/semiconductor.jpg" alt="Blog Image" class="blog-image" height="50%" width="50%">
+             <h2>Role of Chemical Engineers in the Semiconductors Industry</h2>
+             <p>All electronic gadgets like phones, laptops or toys are operated by semiconductors. The new age of electronics depends on how fast and miniature the device is. The fabrication of silicon chips is the determining factor for the upcoming industry challenge. Here comes the role of chemical engineers. Generally, chemical engineers who work in design, operation...</p>
+        </article>
+
+        <section id="comments-section">
+            <h3>Comments</h3>
+            <form id="comment-form">
+                <textarea id="comment-input" placeholder="Add a comment..."></textarea>
+                <button type="submit">Comment</button>
+            </form>
+            <ul id="comments-list"></ul>
+            <p id="comment-reply" class="hidden">your Comment added!</p>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
